@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "wikillm"
+version = "0.1.0"
+description = ""
+authors = ["Jan Wiberg <jan@lykke.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.1"
+sklearn = "^0.0.post5"
+Markdown = "^3.4.3"
+notebook = "^6.5.4"
+rich = "^13.3.5"
+beautifulsoup4 = "^4.12.2"
+openai = "^0.27.6"
+nltk = "^3.8.1"
+fastparquet = "^2023.4.0"
+tiktoken = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
